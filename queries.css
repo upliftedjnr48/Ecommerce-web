@@ -1,0 +1,769 @@
+@media (max-width:1024px) {
+    #hero{
+        background-position: top 40% right 30%;
+    }
+    
+    #product1 .pro{
+        min-width: 150px;
+        padding: 7px 10px;
+        border: 1px solid #465;
+        border-radius: 15px;
+    }
+
+    #banner{
+        height: 35vh;
+    }
+
+    #sm-banner .banner-box{
+        min-width: 370px;
+        height: 50vh;
+    }
+
+    #banner3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
+    #banner3 .banner-box{
+        min-width: 40%;
+        height: 40vh;
+        padding: 15px;
+    }
+
+    #newsletter p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    #newsletter{
+        height: 30vh;
+    }
+
+    .footer-grid{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr 1fr ;
+        gap: 7px;
+    }
+    .play{
+        width: 45%;
+    }
+
+    .apple{
+        width:35%;
+    }
+
+    #section-forms{
+        margin: 0px 20px;
+    }
+    .form-container{
+        gap: 8rem;
+        padding-bottom: 20px;
+    }
+    .form-container form{
+        row-gap: 20px;
+        column-gap: 5px;
+    }
+    .form-text{
+        padding: 20px 0px 0px 40px;
+    }
+    .form-text h4{
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    #hero button{
+        font-size: 30px;
+        padding: 10px 30px 10px 30px;
+    }
+
+    #product1 .pro{
+        min-width: 115px;
+        padding: 7px 10px;
+        border: 1px solid #465;
+        border-radius: 15px;
+    }
+
+    #product1 .pro .des .star .icon{
+        font-size: 10px;
+    }
+
+    #product1 .pro .des h4{
+        padding-top: 6px;
+        font-size: 12px;
+    }
+
+    #product1 .pro .cart{
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+    }
+
+    #section-forms{
+        margin: 0px 15px;
+    }
+    .form-container{
+        gap: 6rem;
+        padding-bottom: 15px;
+    }
+    .form-container form{
+        row-gap: 15px;
+        column-gap: 5px;
+    }
+    .form-text{
+        padding: 15px 0px 0px 30px;
+    }
+    .form-text h4{
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+
+    .form-image img{
+        width: 97%;
+        border-top-right-radius: 15px;
+    }
+
+
+
+    .section-about{
+        padding: 15px 25px;
+    }
+    
+    .about div{
+        height: 40%;
+    }
+
+    .about h2{
+        font-size: 25px;
+    }
+
+    .about img{
+        height: 300px;
+    }
+    .about-p{
+        line-height: 1.5;
+    }
+
+    .about-v h1{
+        font-size: 35px;
+    }
+
+    .about-v .video{
+        width: 60%;
+        height: 90%;
+        margin: 25px auto 0 auto;
+        background-color: #000;
+        border: solid 1px #818ea0;
+        border-radius: 30px;
+    }
+    
+    .about-v .video video{
+        height: 20rem;
+        width: 100%;
+        border-radius: 50px;
+    }
+
+    #about-feature{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 5px;
+    }
+
+    .faq-container{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 9px;
+    }
+
+    #contact-details .details h2{
+        font-size: 18px;
+        padding: 15px 0;
+        line-height: 25px;
+    }
+
+    #form-details{
+        margin: 20px;
+        padding: 30px;
+    }
+
+    #form-details form{
+        width: 50%;
+    }
+
+
+
+}
+
+@media (max-width:425px) {
+
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #e3e6f3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.3s ease-in-out;
+    }
+
+    #navbar.active{
+        right: 0px;
+    }
+
+    #navbar li{
+        margin-bottom: 20px;
+    }
+
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i{
+        color: #1a1a1a;
+        font-size: 20px;
+        padding-left: 15px;
+        padding-right: 10px;
+    }
+
+    #close{
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+    }
+
+    #lg-bag{
+        display: none;
+    }
+
+    #hero button{
+        font-size: 14px;
+        padding: 7px 20px 7px 20px;
+    }
+
+    #hero{
+        padding: 0 20px;
+        height: 70vh;
+    }
+
+    #hero h4{
+        padding-bottom: 7px;
+    }
+
+    #hero h2{
+        font-size: 20px;
+    }
+
+    #feature p{
+        font-size: 17px;
+    }
+
+    .slides{
+        width: 300px;
+        height: 210px;
+    }
+
+    .slide{
+        width: 300px;
+        height: 210px;
+    }
+
+    .nav label{
+        width: 100px;
+        height: 50px;
+    }
+
+    #product1 {
+        padding: 5px 40px;
+    }
+
+    #product1 .pro-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    #product1 .pro{
+        width: 150px;
+        padding: 7px 10px;
+        border: 1px solid #465;
+        border-radius: 15px;
+    }
+
+    #product1 .pro .des .star .icon{
+        font-size: 10px;
+    }
+
+    #product1 .pro .des h4{
+        padding-top: 6px;
+        font-size: 12px;
+    }
+
+    #product1 .pro .cart{
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+    }
+
+    #product1 h2{
+        font-size: 20px;
+        padding-top: 2px;
+    }
+
+    #product1 p{
+        font-size: 13px;
+        padding: 2px;
+        margin: 1px;
+    }
+
+    #banner{
+        height: 25vh;
+    }
+
+    button.normal{
+        font-size: 10px;
+        font-weight: 400;
+        padding: 5px 10px;
+        margin-bottom: 10px;
+    }
+
+    #banner h2{
+        padding: 0 0;
+    }
+
+    #banner h4{
+        font-size: 10px;
+    }
+    #banner h2{
+        font-size: 12px;
+        padding: 2px 0;
+    }
+
+    #banner3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 20px;
+    }
+
+    .banner-box1{
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+    }
+
+    #banner3 .banner-box{
+        min-width: 40%;
+    }
+    #banner3 h2{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    #banner3 h3{
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    #section-forms{
+        margin: 0px 10px;
+    }
+    .form-container{
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        padding-bottom: 10px;
+    }
+    .form-container form{
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+        column-gap: 5px;
+    }
+    .form-text{
+        padding: 12px 0px 0px 20px;
+    }
+    .form-text h4{
+        font-size: 20px;
+        padding-bottom: 12px;
+    }
+
+    .form-text p{
+        font-size: 15px;
+        padding-bottom:15px ;
+        line-height: 1;
+    }
+
+    .form-image img{
+        width: 80%;
+        margin-left: 33px;
+        padding-bottom: 20px;
+        border-top-right-radius: 15px;  
+    }
+
+    .forms input{
+        width: 80%;
+    }
+    .form-button{
+        width: 40%;
+        height: 30px;
+    }
+
+    .footer-grid{
+        grid-template-columns: 1fr;
+    }
+
+    footer h4{
+        font-size: 16px;
+    }
+
+    footer p,a{
+        font-size: 12px;
+    }
+
+    /* page header */
+
+    .page-header{
+        height: 50vh;
+    }
+    .page-header h2{
+        font-size: 26px;
+    }
+    .page-header p{
+        font-size: 20px;
+    }
+
+    .prodetails{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .singLe-image{
+        width: 100%;
+    }
+
+    .single-pro-details{
+        width: 70%;
+        padding-top: 15px;
+    }
+
+    .single-pro-details h6{
+        padding: 10px 0 0 0;
+    }
+
+    .single-pro-details h3{
+        font-size: 15px;
+        padding: 10px 0 0 0;
+    }
+
+    .single-pro-details h2{
+        font-size: 20px;
+    }
+
+    .single-pro-details h4{
+        padding: 15px 0;
+        text-align: center;
+        font-size: 20px;
+    }
+    .single-pro-details span{
+        text-align: center;
+        width: 100%;
+    }
+
+    .single-pro-details button{
+        height: 30px;
+    }
+    
+    .single-pro-details input{
+        height: 30px;
+    }
+
+    /* blog section */
+    .blog{
+        padding: 60px 60px 5px 60px;
+
+    }
+
+    .blog-box{
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+
+    .blog-image{
+        width: 100%;
+    }
+
+    .blog-details{
+        width: 100%;
+    }
+
+    .blog-box h1{
+        font-size: 50px;
+    }
+
+    .blog-box h4{
+        padding-top: 10px;
+    }
+
+    .blog img{
+        border-radius: 10px;
+    }
+
+    .blog-box h1{
+        font-size: 40px;
+
+    }
+
+    .apple{
+        font-size: 30px;
+    }
+
+    .about-header{
+        height: 30vh;
+    }
+
+    .about{
+        flex-direction: column;
+    }
+
+    .about-p{
+        padding-bottom: 4px;
+    }
+
+    .about img{
+        width: 100%;
+    }
+
+    .about div{
+        padding-left: 0px;
+    }
+
+    .about-v .video{
+        width: 100%;
+    }
+
+    #contact-details{
+        flex-direction: column;
+    }
+
+    #contact-details .details{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    #contact-details .map{
+        width: 100%;
+        height: 220px;
+    }
+
+    #form-details{
+        flex-direction: column;
+    }
+
+    #form-details form,
+    #form-details .people{
+        width: 95%;
+    }
+
+    #form-details .people{
+        padding-top: 20px;
+    }
+
+    #form-details form button{
+        height: 40px;
+        width: 100px;
+    }
+
+    .section-p1{
+        padding: 10px 20px;
+    }
+
+    #newsletter .newstext p{
+        font-size: 12px;
+    }
+    #newsletter .newstext h4{
+        font-size: 16px;
+        padding-bottom: 12px;
+    }
+
+    #newsletter{
+        height: 100px;
+    }
+
+    footer .col{
+        align-items: center;
+    }
+
+    /* section cart */
+    #cart tbody td img{
+        width: 6rem;
+        height: 6rem;
+        border-radius: 8px;
+    }
+    #cart table td:nth-child(5) input{
+        width: 50px;
+        padding: 10px 5px 10px 15px;
+    }
+
+    #cart table tbody td{
+        font-size: 18px;
+    }
+
+    .section-coupon{
+        flex-direction: column;
+    }
+
+    .coupon{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .coupon input{
+        width: 80%;
+    }
+
+    .totals{
+        width: 90%;
+    }
+}
+
+
+@media (max-width:375px) {
+    #hero{
+        height: 60vh;
+    }
+
+    #product1 {
+        padding: 5px 30px;
+    }
+    #product1 .pro-container{
+        gap: 5px;
+    }
+
+    #product1 .pro{
+        width: 150px;
+        padding: 7px 10px;
+        border: 1px solid #465;
+        border-radius: 15px;
+    }
+
+    #banner3 .banner-box{
+        padding: 10px;
+        height: 20vh;
+    }
+    #banner3 h2{
+        font-size: 10px;
+        font-weight: 600;
+        
+    }
+    #banner3 h3{
+        font-size: 12px;
+    }
+
+    /* blog */
+
+    .blog{
+        padding: 60px 60px 5px 60px;
+
+    }
+
+    .blog-box{
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+
+    .blog-image{
+        width: 100%;
+    }
+
+    .blog-details{
+        width: 100%;
+    }
+
+    .blog-box h1{
+        font-size: 50px;
+    }
+
+    .blog-box h4{
+        padding-top: 10px;
+    }
+
+    .blog-header h2{
+        font-size: 28px;
+    }
+
+    .blog-header p{
+        font-size: 20px;
+    }
+
+    .blog img{
+        border-radius: 30px
+    }
+
+    .blog-box h1{
+        font-size: 40px;
+
+    }
+
+    #about-feature{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+
+    .faq-container{
+        grid-template-columns: 1fr;
+    }
+
+    .blog-details{
+        margin-right: 30px;
+        line-height: 2;
+    }
+
+    #newsletter .newstext h4{
+        font-size: 14px;
+        padding-bottom: 7px;
+    }
+
+    .section-p1{
+        padding: 10px 15px;
+    }
+
+    #newsletter{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    #newsletter p{
+        font-size: 18px;
+        font-weight: 500;
+        padding-bottom: 3px;
+    }
+
+    .page-header h2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .page-header{
+        height: 30vh;
+    }
+
+    .single-pro-details{
+        width: 100%;
+    }
+
+
+} 
+
+@media (max-width:320) {
+
+}
